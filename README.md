@@ -28,7 +28,7 @@ Our multi-modal deep learning framework consists of three main components:
 ![Architecture](https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/Blank%20board%20-%20Page%201%20(2)%20(1).png)
 
 ## Model Workflow
-### 🏥 **1. Image Processing (CNN - EfficientNet)**
+### **1. Image Processing (CNN - EfficientNet)**
 - **Input:** Chest X-ray images (preprocessed).  
 - **Feature Extraction:**  
   - EfficientNet is **pre-trained on medical images** and fine-tuned on **MIMIC-CXR dataset**.  
@@ -41,7 +41,7 @@ Our multi-modal deep learning framework consists of three main components:
 
 ---
 
-### 📑 **2. Clinical Notes Processing (Transformer - PubMedBERT)**
+### **2. Clinical Notes Processing (Transformer - PubMedBERT)**
 - **Input:** Doctor's text-based **clinical reports**.  
 - **Feature Extraction:**  
   - Tokenized and **embedded using PubMedBERT** (fine-tuned on biomedical text).  
@@ -54,7 +54,7 @@ Our multi-modal deep learning framework consists of three main components:
 
 ---
 
-### 🔗 **3. Feature Fusion (FC-FNN)**
+### **3. Feature Fusion (FC-FNN)**
 - **Input:**  
   - **Image feature vector** (from EfficientNet).  
   - **Text feature vector** (from PubMedBERT + LSTM).  
