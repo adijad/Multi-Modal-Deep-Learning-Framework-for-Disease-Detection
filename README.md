@@ -20,7 +20,7 @@ This approach **mimics real-world clinical decision-making** by leveraging the c
 3. **Feature Fusion**: Combines extracted features using **FC-FNN** for final disease classification  
 
 ### **System Architecture Diagram**  
-![Architecture]([https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/Blank%20board%20-%20Page%201%20(2)%20(1).png]  
+![Architecture](https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/Blank%20board%20-%20Page%201%20(2)%20(1).png) 
 
 ---
 
