@@ -20,7 +20,11 @@ This approach **mimics real-world clinical decision-making** by leveraging the c
 3. **Feature Fusion**: Combines extracted features using **FC-FNN** for final disease classification  
 
 ### **System Architecture Diagram**  
-![Architecture](https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/Blank%20board%20-%20Page%201%20(2)%20(1).png) 
+![Architecture](https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/Blank%20board%20-%20Page%201%20(2)%20(1).png)
+
+🔹 The **radiology image branch** extracts visual features from X-rays using **EfficientNet**  
+🔹 The **clinical notes branch** extracts textual insights using **PubMedBERT**  
+🔹 Both feature sets are **concatenated into a common latent space** for final disease classification
 
 ---
 
@@ -29,4 +33,7 @@ We use **MIMIC-CXR**, a publicly available dataset containing **377,110 chest ra
 
 - **Preprocessing**:  
   - X-ray images resized to **224×224 pixels** and normalized  
-  - Clinical reports tokenized and processed for **BERT-based embeddings**  
+  - Clinical reports tokenized and processed for **BERT-based embeddings**
+
+Example Chest X-ray and Radiology Report:  
+![X-ray Report](https://github.com/adijad/Multi-Modal-Deep-Learning-Framework-for-Disease-Detection/blob/main/Dataset/DLProjectimage.png)
